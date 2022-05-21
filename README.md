@@ -2,7 +2,7 @@
 We have customized "Classic" which is installed with Redmine.
 It is a simple theme with blue as the base color.
 
-# Screen shots
+## Screen shots
 * Login
 ![alt](login.png)
 
@@ -24,7 +24,7 @@ It is a simple theme with blue as the base color.
 * My account
 ![alt](myaccount.png)
 
-# Instll
+## Instll
 
 ```
 cd {redmine home}/public/themes
