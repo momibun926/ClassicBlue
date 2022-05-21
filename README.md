@@ -1,5 +1,6 @@
 # ClassicBlue
-Redmine theme based on Classic
+We have customized "Classic" which is installed with Redmine.
+It is a simple theme with blue as the base color.
 
 # Screen shots
 * Login
@@ -32,5 +33,3 @@ git clone https://github.com/momibun926/ClassicBlue ClassicBlue
 ```
 
 Restart Redmine after the clone is complete.
-
-
