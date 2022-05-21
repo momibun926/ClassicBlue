@@ -1,0 +1,171 @@
+@import url(../../../stylesheets/application.css);
+
+/* basic element */
+body{
+  color:#303030;
+  background:#adccec;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 {
+  border-bottom: 0px; color:#606060
+}
+h2, .wiki h1 {
+  letter-spacing:-1px;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.3em;
+}
+h4 {
+  border-bottom: dotted 1px #c0c0c0;
+}
+
+/* top menu */
+#top-menu {
+  padding-top: 0.5em;
+  font-size: 1em;
+  background-color: midnightblue;
+  background: linear-gradient(midnightblue, darkblue);
+}
+#top-menu a {
+  font-weight: normal;
+}
+#top-menu a.home,
+#top-menu a.my-page,
+#top-menu a.projects,
+#top-menu a.administration,
+#top-menu a.help {
+  background-position: 0% 40%;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+}
+#top-menu a.home { background-image: url(../images/home.png); }
+#top-menu a.my-page { background-image: url(../../../images/user.png); }
+#top-menu a.projects { background-image: url(../../../images/projects.png); }
+#top-menu a.administration { background-image: url(../images/wrench.png); }
+#top-menu a.help { background-image: url(../../../images/help.png); }
+
+/* header and footer */
+#header {
+  background: Darkblue;
+  height:5.8em;
+  padding: 10px 0 0 0;
+}
+#header h1 {
+  font-weight: normal;
+  margin-left: 6px;
+  padding-left: 40px;
+  background-image: url(../images/header.png);
+  background-size: 32px 32px;
+  background-position: 0% 40%;
+  background-repeat: no-repeat;
+}
+#quick-search {
+  margin-right: 6px;
+}
+#footer {
+  background-color: Darkblue;
+  border: 0; color: white;
+}
+#footer a {
+  color: white;
+  font-weight: bold;
+}
+
+/* main menu */
+#main-menu li a {
+  font-weight: normal
+}
+#main-menu li a:hover,
+#main-menu li a.selected,
+#main-menu li a.new-object ,
+#main-menu li a.selected:hover {
+  font-weight: normal;
+  background-color: White;
+  color: Darkblue;
+}
+#main a:hover {
+  color: #2a5a8a;
+  text-decoration: underline;
+}
+#main-menu .menu-children {
+  border-right: 1px solid Darkblue;
+  border-bottom: 1px solid Darkblue;
+  border-left: 1px solid Darkblue;
+}
+#main-menu .menu-children li a {
+  border-right: none;
+}
+#main-menu .menu-children li a:hover {
+  background-color: Darkblue
+}
+
+/* side bar */
+#sidebar {
+  background: darkblue;
+  color: white;
+}
+#sidebar h3 {
+  font-size: 1.1em;
+  border: solid 1px;
+  border-radius: 3px;
+  padding: 2px;
+  color: white;
+}
+#sidebar h4 {
+  color: white;
+}
+#sidebar a,
+#sidebar a:link,
+#sidebar a:visited {
+  color: white;
+}
+
+/* flash message */
+.nodata,
+.warning {
+  text-align: center;
+  background-color: skyblue;
+  border-color: skyblue;
+  color: royalblue;
+}
+
+/* login */
+#login-form{
+  background-color: rgb(255,255,255,0.3);
+  border-color: skyblue;
+  color: darkblue;
+}
+#login-form input[type=text], #login-form input[type=password] {
+  margin-bottom: 15px;
+}
+#login-form label {
+  text-align: left;
+}
+.theme-Simple.controller-account.action-login.avatars-off #wrapper #main.nosidebar #content{
+  background-image: url(../images/bg_login.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.theme-Simple.controller-welcome.action-index.avatars-off #wrapper #main.nosidebar #content{
+  background-image: url(../images/bg_login.jpg);
+  background-repeat: no-repeat;
+  background-color:rgba(255,255,255,0.7);
+  background-blend-mode:lighten;
+  background-position: bottom center;
+}
+
+/* other */
+table.progress td.done {
+  background: darkgreen none repeat scroll 0%;
+}
+.contextual input, .contextual select {
+  font-size: normal;
+}
