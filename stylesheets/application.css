@@ -149,12 +149,12 @@ h4 {
 #login-form label {
   text-align: left;
 }
-.theme-Simple.controller-account.action-login.avatars-off #wrapper #main.nosidebar #content{
+.theme-Classicblue.controller-account.action-login.avatars-off #wrapper #main.nosidebar #content{
   background-image: url(../images/bg_login.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
 }
-.theme-Simple.controller-welcome.action-index.avatars-off #wrapper #main.nosidebar #content{
+.theme-Classicblue.controller-welcome.action-index.avatars-off #wrapper #main.nosidebar #content{
   background-image: url(../images/bg_login.jpg);
   background-repeat: no-repeat;
   background-color:rgba(255,255,255,0.7);
