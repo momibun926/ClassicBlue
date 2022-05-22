@@ -143,18 +143,19 @@ h4 {
 }
 
 /* flash message */
+div.flash.notice,
 .nodata,
 .warning {
   text-align: center;
-  background-color: skyblue;
-  border-color: skyblue;
-  color: royalblue;
+  background-color: lightskyblue;
+  border-color: lightskyblue;
+  color: darkblue;
 }
 
 /* login */
 #login-form{
   background-color: rgb(255,255,255,0.3);
-  border-color: skyblue;
+  border-color: lightskyblue;
   color: darkblue;
 }
 #login-form input[type=text], #login-form input[type=password] {
