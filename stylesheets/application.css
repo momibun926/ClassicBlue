@@ -22,6 +22,7 @@ h3 {
   font-size: 1.3em;
 }
 h4 {
+  font-size: 1.1em;
   border-bottom: dotted 1px #c0c0c0;
 }
 
@@ -81,7 +82,8 @@ h4 {
 
 /* main menu */
 #main-menu li a {
-  font-weight: normal
+  font-weight: normal;
+  min-height: 18px;
 }
 #main-menu li a:hover,
 #main-menu li a.selected,
@@ -90,10 +92,6 @@ h4 {
   font-weight: normal;
   background-color: White;
   color: Darkblue;
-}
-#main a:hover {
-  color: #2a5a8a;
-  text-decoration: underline;
 }
 #main-menu .menu-children {
   border-right: 1px solid Darkblue;
@@ -107,8 +105,24 @@ h4 {
   background-color: Darkblue
 }
 
+/* main */
+#main {
+  background-color: darkblue;
+}
+#main a:hover {
+  color: #2a5a8a;
+  text-decoration: underline;
+}
+
+/* content */
+#content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /* side bar */
 #sidebar {
+  border-left: none;
   background: darkblue;
   color: white;
 }

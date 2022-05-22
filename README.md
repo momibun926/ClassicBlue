@@ -24,7 +24,7 @@ It is a simple theme with blue as the base color.
 * My account
 ![alt](myaccount.png)
 
-## Instll
+## Install
 
 ```
 cd {redmine home}/public/themes
